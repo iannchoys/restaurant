@@ -9,6 +9,7 @@ body {
 	font-family: "Tenor Sans", sans-serif;
 }
 
+/* Шапка */
 .hero {
 	position: relative;
 	height: 100vh;
@@ -491,9 +492,7 @@ section.hero .hero__scroll .hero__scroll-link i {
 	color: inherit;
 }
 
-/* ================================
-   Секция About Us
-   ================================ */
+/* About Us */
 .about {
 	padding: 80px 0;
 	background-color: #fff;
@@ -513,7 +512,6 @@ section.hero .hero__scroll .hero__scroll-link i {
 	position: relative;
 }
 
-/* Жёлтая полоска под заголовком */
 .about__title::after {
 	content: "";
 	position: absolute;
@@ -545,26 +543,21 @@ section.hero .hero__scroll .hero__scroll-link i {
 	margin: 0 auto;
 }
 
-/* Блок с картинкой */
 .about__images {
 	position: relative;
 	width: 100%;
-	max-width: 600px; /* ширина по макету */
+	max-width: 600px;
 	margin: 0 auto;
-	/* overflow: hidden; /* обрезаем прозрачные поля */
-	/* border-radius: 5px; /* скругление как у картинки */
-	/* box-shadow: 0 0 30px rgba(0, 0, 0, 0.2); /* мягкая тень на весь блок (опционально) */
 }
 
 .about__photo {
 	display: block;
-	width: 110%; /* растягиваем немного шире контейнера */
-	margin-left: -5%; /* центрируем увеличенное изображение */
+	width: 110%;
+	margin-left: -5%;
 	height: auto;
 	border-radius: 5px;
 }
 
-/* Адаптация */
 @media (max-width: 767.98px) {
 	.about {
 		padding: 60px 0;
@@ -589,16 +582,13 @@ section.hero .hero__scroll .hero__scroll-link i {
 	}
 }
 
-/* На десктопах добавляем отступ слева, чтобы картинка отодвинулась от текста */
 @media (min-width: 992px) {
 	.about__images {
-		padding-left: 80px; /* подгони значение под макет */
+		padding-left: 80px;
 	}
 }
 
-/* ================================
-   Секция Our Team
-   ================================ */
+/* Our Team */
 .team {
 	position: relative;
 	padding: 80px 0 100px;
@@ -622,21 +612,19 @@ section.hero .hero__scroll .hero__scroll-link i {
 	z-index: 1;
 }
 
-/* Общий заголовок секции (мелкий, как "restaurant" в hero) */
 .team__section-title {
 	font-family: "Tenor Sans", sans-serif;
 	font-size: 14px;
 	text-transform: uppercase;
 	letter-spacing: 4px;
 	color: rgba(255, 255, 255, 0.8);
-	margin-bottom: 50px; /* отступ до следующего ряда */
+	margin-bottom: 50px;
 }
 
-/* Картинка слева */
 .team__images {
 	display: block;
 	width: 100%;
-	max-width: 600px; /* крупнее, как в About Us */
+	max-width: 600px;
 	margin: 0 auto;
 }
 
@@ -645,10 +633,8 @@ section.hero .hero__scroll .hero__scroll-link i {
 	width: 100%;
 	height: auto;
 	border-radius: 5px;
-	/* Тени уже внутри PNG */
 }
 
-/* Заголовок "MASTER CHEF" */
 .team__heading {
 	font-family: "Tenor Sans", sans-serif;
 	font-weight: 700;
@@ -660,7 +646,6 @@ section.hero .hero__scroll .hero__scroll-link i {
 	line-height: 1.2;
 }
 
-/* Жёлтая полоска */
 .team__divider {
 	display: block;
 	margin: 15px auto 30px;
@@ -668,7 +653,6 @@ section.hero .hero__scroll .hero__scroll-link i {
 	height: auto;
 }
 
-/* Подзаголовок (полужирный текст) */
 .team__subtitle {
 	font-family: "Tenor Sans", sans-serif;
 	font-weight: 700;
@@ -679,7 +663,6 @@ section.hero .hero__scroll .hero__scroll-link i {
 	max-width: 500px;
 }
 
-/* Основной текст */
 .team__text {
 	font-family: "Tenor Sans", sans-serif;
 	font-size: 14px;
@@ -689,7 +672,6 @@ section.hero .hero__scroll .hero__scroll-link i {
 	margin: 0 auto;
 }
 
-/* Декоративные вертикальные линии */
 .team__decor-lines {
 	position: absolute;
 	top: 0;
@@ -705,11 +687,11 @@ section.hero .hero__scroll .hero__scroll-link i {
 	top: 0;
 	width: 1px;
 	height: 100%;
-	border-left: 1px solid rgba(255, 255, 255, 0.2); /* #FFFFFF33 */
+	border-left: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .team__decor-line--left {
-	left: 20.4167%; /* совпадает с hero__decor-line--left */
+	left: 20.4167%;
 }
 
 .team__decor-line--center {
@@ -718,10 +700,9 @@ section.hero .hero__scroll .hero__scroll-link i {
 }
 
 .team__decor-line--right {
-	right: 20.4167%; /* совпадает с hero__decor-line--right */
+	right: 20.4167%;
 }
 
-/* Адаптация */
 @media (max-width: 767.98px) {
 	.team {
 		padding: 60px 0;

@@ -1,13 +1,11 @@
 <section class="team" id="team">
     <div class="container">
-        <!-- Общий заголовок секции -->
         <div class="row">
             <div class="col-12 text-center">
                 <p class="team__section-title">Our Team</p>
             </div>
         </div>
 
-        <!-- Основной контент: картинка + текст -->
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
                 <div class="team__images">
@@ -31,7 +29,6 @@
         </div>
     </div>
 
-    <!-- Вертикальные декоративные линии -->
     <div class="team__decor-lines">
         <span class="team__decor-line team__decor-line--left"></span>
         <span class="team__decor-line team__decor-line--center"></span>
