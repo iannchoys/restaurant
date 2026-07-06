@@ -16,6 +16,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
 	 <?php include 'header.php'; ?>
+	 <?php include 'sections/about.php'; ?>
+	 <?php include 'sections/team.php'; ?>
 	 <main>
 	</main>
 <?php include 'footer.php'; ?>
