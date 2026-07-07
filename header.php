@@ -70,14 +70,8 @@
     </div>
 
 <div class="hero__scroll">
-    <a href="#next-section" class="hero__scroll-link" aria-label="Прокрутить вниз"
-	 style="display:flex; align-items:center; justify-content:center;
-          width:60px; height:60px; border-radius:50%;
-          border:1px solid rgba(255,255,255,0.2);
-          background-color:#333333; color:#ffffff !important;
-          font-size:20px; text-decoration:none !important;
-          transition:all 0.3s;">
-        <i class="fas fa-chevron-down"></i>
+    <a href="#next-section" class="hero__scroll-link" aria-label="Прокрутить вниз">
+        <img src="img/header/16_down_btn.png" alt="Прокрутить вниз" class="hero__scroll-img">
     </a>
 </div>
 

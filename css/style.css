@@ -322,7 +322,7 @@ body {
 	position: absolute;
 	bottom: 30px;
 	left: 50%;
-	transform: translateX(-50%);
+	transform: translateX(-50%) translateY(-70px);
 	z-index: 2;
 }
 
@@ -464,32 +464,33 @@ body.menu-open .hero__side-right {
 	height: 10.25%;
 }
 
-section.hero .hero__scroll .hero__scroll-link {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 40px;
-	height: 40px;
+.hero__scroll {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 765px;
+	z-index: 2;
+}
+
+.hero__scroll-link {
+	display: block;
+	width: 60px;
+	height: 60px;
 	border-radius: 50%;
-	border: 1px solid rgba(255, 255, 255, 0.2);
-	background-color: #333333;
-	color: #ffffff !important;
-	font-size: 20px;
-	text-decoration: none !important;
-	transition: all 0.3s;
+	overflow: hidden;
+	background: transparent;
+	border: none;
 }
 
-section.hero .hero__scroll .hero__scroll-link:hover {
-	border-color: #e8c300;
-	color: #e8c300 !important;
+.hero__scroll-img {
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: opacity 0.3s;
 }
 
-section.hero .hero__scroll .hero__scroll-link i {
-	font-family: "Font Awesome 5 Free";
-	font-weight: 900;
-	font-style: normal;
-	line-height: 1;
-	color: inherit;
+.hero__scroll-link:hover .hero__scroll-img {
+	opacity: 0.8;
 }
 
 /* About Us */
