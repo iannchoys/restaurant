@@ -18,6 +18,7 @@
 	 <?php include 'header.php'; ?>
 	 <?php include 'sections/about.php'; ?>
 	 <?php include 'sections/team.php'; ?>
+	 <?php include 'sections/booking.php'; ?>
 	 <main>
 	</main>
 <?php include 'footer.php'; ?>
