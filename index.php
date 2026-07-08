@@ -19,6 +19,7 @@
 	 <?php include 'sections/about.php'; ?>
 	 <?php include 'sections/team.php'; ?>
 	 <?php include 'sections/booking.php'; ?>
+	 <?php include 'sections/specialities.php'; ?>
 	 <main>
 	</main>
 <?php include 'footer.php'; ?>
