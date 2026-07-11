@@ -23,6 +23,7 @@
 	 <?php include 'sections/booking.php'; ?>
 	 <?php include 'sections/specialities.php'; ?>
 	 <?php include 'sections/menu.php'; ?>
+	 <?php include 'sections/events.php'; ?>
 	 <main>
 	</main>
 <?php include 'footer.php'; ?>
