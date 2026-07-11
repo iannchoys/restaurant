@@ -23,3 +23,27 @@ $(document).ready(function(){
 		  autoplaySpeed: 3000
     });
 });
+
+
+$(document).ready(function(){
+    $('.menu__item').show();
+    $('.menu__category-link').removeClass('active');
+
+    $('.menu__category-link').on('click', function(e){
+        e.preventDefault();
+        var $this = $(this);
+        var filter = $this.data('filter');
+
+        if ($this.hasClass('active')) {
+            $this.removeClass('active');
+            $('.menu__item').show();
+        } else {
+            $('.menu__category-link').removeClass('active');
+            $this.addClass('active');
+
+            $('.menu__item').hide();
+            $('.menu__item[data-category="' + filter + '"]').show();
+        }
+    });
+});
+
