@@ -1431,3 +1431,38 @@ select.booking__input {
 		display: none;
 	}
 }
+
+/* Photo Galerie */
+.gallery {
+	background-color: #000;
+}
+
+.gallery__item {
+	position: relative;
+	cursor: pointer;
+	overflow: visible;
+	transition:
+		transform 0.3s,
+		z-index 0s;
+	z-index: 1;
+}
+
+.gallery__item:hover {
+	transform: scale(1.1);
+	z-index: 10;
+}
+
+.gallery__img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+@media (max-width: 767.98px) {
+	.gallery {
+		padding: 60px 0;
+	}
+	.gallery__title {
+		font-size: 28px;
+	}
+}

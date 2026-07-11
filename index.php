@@ -24,6 +24,7 @@
 	 <?php include 'sections/specialities.php'; ?>
 	 <?php include 'sections/menu.php'; ?>
 	 <?php include 'sections/events.php'; ?>
+	 <?php include 'sections/gallery.php'; ?>
 	 <main>
 	</main>
 <?php include 'footer.php'; ?>
