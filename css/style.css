@@ -1466,3 +1466,169 @@ select.booking__input {
 		font-size: 28px;
 	}
 }
+
+/* Contact */
+.contact {
+	padding: 80px 0;
+	background-color: #f9f9f9;
+}
+
+.contact__title {
+	font-family: "Tenor Sans", sans-serif;
+	font-weight: 700;
+	font-size: 36px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #000;
+	margin: 0 0 10px;
+}
+
+.contact__divider {
+	display: block;
+	margin: 0 auto 30px;
+	width: 60px;
+	height: auto;
+}
+
+.contact__subtitle {
+	font-family: "Tenor Sans", sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 28px;
+	text-align: center;
+	color: #333;
+	max-width: 565px;
+	margin: 0 auto 40px;
+}
+
+.contact__input,
+.contact__textarea {
+	width: 100%;
+	padding: 15px 20px;
+	font-family: "Tenor Sans", sans-serif;
+	font-size: 14px;
+	background: #e5e5e5;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	color: #333;
+	outline: none;
+	transition: border-color 0.3s;
+	box-sizing: border-box;
+}
+
+.contact__input::placeholder,
+.contact__textarea::placeholder {
+	color: rgba(51, 51, 51, 0.5);
+	opacity: 1;
+}
+
+.contact__input:focus,
+.contact__textarea:focus {
+	border-color: #e8c300;
+}
+
+.contact__textarea {
+	resize: vertical;
+	min-height: 120px;
+}
+
+.contact__info {
+	display: flex;
+	align-items: center;
+	flex-wrap: nowrap;
+	gap: 8px 5px;
+	padding: 0 10px;
+	margin-left: -10px;
+	background: transparent;
+	overflow: hidden;
+	margin-top: auto;
+}
+
+.contact__info i {
+	color: #e8c300;
+	font-size: 12px;
+	margin-right: 3px;
+	flex-shrink: 0;
+}
+
+.contact__info span {
+	font-family: "Tenor Sans", sans-serif;
+	font-weight: 700;
+	font-size: 11px;
+	color: rgba(51, 51, 51, 0.5);
+	white-space: nowrap;
+}
+
+.contact__gray-bar {
+	width: 90%;
+	height: 24px;
+	background: #c4c4c4;
+	flex-shrink: 0;
+	margin-top: 0;
+}
+
+.contact__btn {
+	display: inline-block;
+	width: 100%;
+	height: 60px;
+	padding: 15px;
+	font-family: "Tenor Sans", sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+	background: #e8c300;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition:
+		background 0.3s,
+		color 0.3s;
+}
+
+.contact__btn:hover {
+	background: #fff;
+	color: #000;
+}
+
+@media (max-width: 767.98px) {
+	.contact {
+		padding: 60px 0;
+	}
+	.contact__title {
+		font-size: 28px;
+	}
+	.contact__subtitle {
+		font-size: 16px;
+	}
+	.contact__input,
+	.contact__textarea {
+		margin-bottom: 10px;
+	}
+	.contact__info {
+		flex-wrap: wrap;
+		margin-left: 0;
+		margin-bottom: 10px;
+	}
+	.contact__btn {
+		height: 50px;
+		font-size: 11px;
+	}
+}
+
+@media (max-width: 1199.98px) {
+	.contact__info {
+		flex-wrap: wrap;
+		gap: 5px 10px;
+		margin-left: 0;
+	}
+
+	.contact__info span {
+		font-size: 10px;
+	}
+
+	.contact__gray-bar {
+		width: 100%;
+	}
+}
