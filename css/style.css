@@ -1070,3 +1070,42 @@ select.booking__input {
 		display: none;
 	}
 }
+
+.specialities .slick-dots {
+	position: relative;
+	bottom: auto;
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+	gap: 12px;
+	list-style: none;
+	padding: 0;
+}
+
+.specialities .slick-dots li {
+	width: 10px;
+	height: 10px;
+	margin: 0;
+}
+
+.specialities .slick-dots li button {
+	width: 10px;
+	height: 10px;
+	padding: 0;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-radius: 50%;
+	background: transparent;
+	font-size: 0;
+	line-height: 0;
+	cursor: pointer;
+	transition: background 0.3s;
+}
+
+.specialities .slick-dots li.slick-active button {
+	background: #fff;
+	border-color: #fff;
+}
+
+.specialities .slick-dots li button::before {
+	display: none;
+}

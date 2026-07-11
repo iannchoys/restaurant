@@ -6,7 +6,7 @@
     <title>Restaurant Hungry People</title>
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-    
+	 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
@@ -216,57 +216,92 @@
 <!-- SPECIALITIES (из sections/specialities.php) -->
 <section class="specialities" id="specialities">
     <div class="container">
-
+        <!-- Верхний мелкий заголовок (неподвижный) -->
         <div class="row">
             <div class="col-12 text-center">
                 <p class="specialities__section-title">Specialities</p>
             </div>
         </div>
 
-        <div class="row align-items-center">
-            
-            <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
-                <div class="specialities__images">
-                    <img src="img/specialities/4_group.png" alt="Специальное блюдо" class="specialities__photo">
+        <!-- Слайдер -->
+        <div class="specialities__slider">
+            <!-- Слайд 1 -->
+            <div class="specialities__slide">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
+                        <div class="specialities__images">
+                            <img src="img/specialities/4_group.png" alt="Шоколадные панкейки" class="specialities__photo">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 text-center">
+                        <h2 class="specialities__heading">CHOCOLATE PANCAKES</h2>
+                        <img src="img/specialities/3_rectangle_2.png" alt="" class="specialities__divider">
+                        <p class="specialities__subtitle">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                        <p class="specialities__text">
+                            Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere.
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            
-            <div class="col-lg-5 offset-lg-1 col-md-6 text-center">
-                <h2 class="specialities__heading">CHOCOLATE PANCAKES</h2>
-                <img src="img/specialities/3_rectangle_2.png" alt="" class="specialities__divider">
-                <p class="specialities__subtitle">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Duis at velit maximus, molestie est a, tempor magna.
-                </p>
-                <p class="specialities__text">
-                    Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. 
-                    Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, 
-                    dui odio vehicula eros, a sollicitudin lorem quam nec sem. 
-                    Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
-                </p>
+            <!-- Слайд 2 -->
+            <div class="specialities__slide">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
+                        <div class="specialities__images">
+                            <img src="img/specialities/4_group.png" alt="Бифштекс" class="specialities__photo">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 text-center">
+                        <h2 class="specialities__heading">BEEF STEAK</h2>
+                        <img src="img/specialities/3_rectangle_2.png" alt="" class="specialities__divider">
+                        <p class="specialities__subtitle">
+                            Duis at velit maximus, molestie est a, tempor magna.
+                        </p>
+                        <p class="specialities__text">
+                            Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Слайд 3 -->
+            <div class="specialities__slide">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
+                        <div class="specialities__images">
+                            <img src="img/specialities/4_group.png" alt="Паста" class="specialities__photo">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 text-center">
+                        <h2 class="specialities__heading">ITALIAN PASTA</h2>
+                        <img src="img/specialities/3_rectangle_2.png" alt="" class="specialities__divider">
+                        <p class="specialities__subtitle">
+                            Nulla facilisis semper laoreet. Mauris tincidunt feugiat diam.
+                        </p>
+                        <p class="specialities__text">
+                            Sapien elit consequat velit, non vehicula tortor nunc id enim.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
 
-        
-        <div class="row">
-            <div class="col-12 text-center specialities__dots">
-                <img src="img/specialities/2_ellipse.png" alt="" class="specialities__dot">
-                <img src="img/specialities/2_ellipse.png" alt="" class="specialities__dot">
-                <img src="img/specialities/2_ellipse.png" alt="" class="specialities__dot">
-            </div>
-        </div>
     </div>
 
-	 
-<div class="specialities__decor-lines">
-    <span class="specialities__decor-line specialities__decor-line--left"></span>
-    <span class="specialities__decor-line specialities__decor-line--center"></span>
-    <span class="specialities__decor-line specialities__decor-line--right"></span>
-</div>
+    <div class="specialities__decor-lines">
+        <span class="specialities__decor-line specialities__decor-line--left"></span>
+        <span class="specialities__decor-line specialities__decor-line--center"></span>
+        <span class="specialities__decor-line specialities__decor-line--right"></span>
+    </div>
 </section>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
     

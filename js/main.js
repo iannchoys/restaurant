@@ -9,3 +9,17 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 });
+
+$(document).ready(function(){
+    $('.specialities__slider').slick({
+        dots: true,               
+        arrows: false,             
+        infinite: true,            
+        speed: 600,                         
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        adaptiveHeight: false,
+		  autoplay: true,
+		  autoplaySpeed: 3000
+    });
+});
