@@ -1,4 +1,5 @@
 <section class="hero">
+	<div id="home" style="position: absolute; top: 0; left: 0;"></div>
  <div class="hero__top">
     
     <nav class="hero__nav hero__nav--desktop">

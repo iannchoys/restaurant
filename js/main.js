@@ -46,14 +46,22 @@ $(document).ready(function(){
     });
 });
 
+
 $(document).ready(function(){
     $('a[href*="#"]').on('click', function(e) {
         var href = $(this).attr('href');
         
         if (href !== '#' && href.indexOf('#') === 0) {
             e.preventDefault();
+            
             var target = $(href);
-            if (target.length) {
+            
+            if (href === '#home') {
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 800);
+            } 
+            else if (target.length) {
                 $('html, body').animate({
                     scrollTop: target.offset().top - 80
                 }, 800);
@@ -61,7 +69,6 @@ $(document).ready(function(){
         }
     });
 });
-
 
 $(window).on('scroll', function() {
     var scroll = $(window).scrollTop();
