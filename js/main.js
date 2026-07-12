@@ -81,3 +81,47 @@ $(window).on('scroll', function() {
         $('.hero__logo-img').removeClass('hero__logo-img--small');
     }
 });
+
+// Отправка формы логина
+$('#loginForm').on('submit', function(e) {
+    e.preventDefault();
+    
+    $.ajax({
+        url: 'ajax/login.php',
+        type: 'POST',
+        data: $(this).serialize(),
+        dataType: 'json',
+        success: function(response) {
+            if (response.success) {
+                $('#loginMessage').html('<div class="alert alert-success">' + response.message + '</div>');
+                setTimeout(function() {
+                    location.reload();  // перезагрузка страницы
+                }, 1500);
+            } else {
+                $('#loginMessage').html('<div class="alert alert-danger">' + response.message + '</div>');
+            }
+        }
+    });
+});
+
+// Отправка формы регистрации
+$('#registerForm').on('submit', function(e) {
+    e.preventDefault();
+    
+    $.ajax({
+        url: 'ajax/register.php',
+        type: 'POST',
+        data: $(this).serialize(),
+        dataType: 'json',
+        success: function(response) {
+            if (response.success) {
+                $('#registerMessage').html('<div class="alert alert-success">' + response.message + '</div>');
+                setTimeout(function() {
+                    location.reload();
+                }, 1500);
+            } else {
+                $('#registerMessage').html('<div class="alert alert-danger">' + response.message + '</div>');
+            }
+        }
+    });
+});

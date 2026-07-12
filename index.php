@@ -24,6 +24,7 @@
     <?php include 'sections/contact.php'; ?>
     <?php include 'sections/map.php'; ?>
     <?php include 'footer.php'; ?>
+	 <?php include 'sections/modals.php'; ?>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>

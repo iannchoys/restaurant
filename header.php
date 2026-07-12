@@ -17,6 +17,7 @@
     <li class="nav-item hero__menu-item"><a class="nav-link hero__link" href="#gallery">Galerie</a></li>
     <li class="nav-item hero__menu-item"><a class="nav-link hero__link" href="#events">Events</a></li>
     <li class="nav-item hero__menu-item"><a class="nav-link hero__link" href="#contact">Contact</a></li>
+	 <li class="nav-item hero__menu-item"><a class="nav-link hero__link" href="#" data-toggle="modal" data-target="#loginModal">Login</a></li>
 </ul>
     </nav>
 
@@ -39,6 +40,7 @@
                 <li><a href="#">Galerie</a></li>
                 <li><a href="#">Events</a></li>
                 <li><a href="#">Contact</a></li>
+					 <li><a href="#" data-toggle="modal" data-target="#loginModal">Login</a></li>
             </ul>
         </nav>
     </div>
