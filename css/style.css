@@ -165,6 +165,24 @@ body {
 	color: #e8c300;
 }
 
+.hero__top--sticky {
+	position: fixed !important;
+	top: 0 !important;
+	left: 0 !important;
+	width: 100% !important;
+	background: rgba(0, 0, 0, 0.95) !important;
+	z-index: 1000 !important;
+	padding: 5px 0 !important;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+	transition: all 0.3s;
+}
+
+.hero__logo-img--small {
+	width: 50px !important;
+	height: 50px !important;
+	transition: all 0.3s;
+}
+
 @media (max-width: 899.98px) {
 	.hero__nav--desktop {
 		display: none !important;

@@ -3,20 +3,20 @@
     
     <nav class="hero__nav hero__nav--desktop">
         <ul class="navbar-nav hero__menu hero__menu--left">
-            <li class="nav-item hero__menu-item"><a class="nav-link hero__link" href="#">Home</a></li>
-            <li class="nav-item hero__menu-item"><a class="nav-link hero__link" href="#">About</a></li>
-            <li class="nav-item hero__menu-item"><a class="nav-link hero__link" href="#">Team</a></li>
-            <li class="nav-item hero__menu-item"><a class="nav-link hero__link" href="#">Booking</a></li>
-        </ul>
+    <li class="nav-item hero__menu-item"><a class="nav-link hero__link" href="#home">Home</a></li>
+    <li class="nav-item hero__menu-item"><a class="nav-link hero__link" href="#about">About</a></li>
+    <li class="nav-item hero__menu-item"><a class="nav-link hero__link" href="#team">Team</a></li>
+    <li class="nav-item hero__menu-item"><a class="nav-link hero__link" href="#booking">Booking</a></li>
+</ul>
         <a class="hero__logo" href="/">
             <img src="img/header/20_vector.png" alt="Логотип" class="hero__logo-img">
         </a>
         <ul class="navbar-nav hero__menu hero__menu--right">
-            <li class="nav-item hero__menu-item"><a class="nav-link hero__link" href="#">Menu</a></li>
-            <li class="nav-item hero__menu-item"><a class="nav-link hero__link" href="#">Galerie</a></li>
-            <li class="nav-item hero__menu-item"><a class="nav-link hero__link" href="#">Events</a></li>
-            <li class="nav-item hero__menu-item"><a class="nav-link hero__link" href="#">Contact</a></li>
-        </ul>
+    <li class="nav-item hero__menu-item"><a class="nav-link hero__link" href="#menu">Menu</a></li>
+    <li class="nav-item hero__menu-item"><a class="nav-link hero__link" href="#gallery">Galerie</a></li>
+    <li class="nav-item hero__menu-item"><a class="nav-link hero__link" href="#events">Events</a></li>
+    <li class="nav-item hero__menu-item"><a class="nav-link hero__link" href="#contact">Contact</a></li>
+</ul>
     </nav>
 
     <div class="hero__mobile-nav">
@@ -50,8 +50,8 @@
         <div class="hero__divider"></div>
     </div>
     <div class="hero__buttons">
-        <a href="#" class="btn hero__btn hero__btn--primary">BOOK TABLE</a>
-        <a href="#" class="btn hero__btn hero__btn--outline">EXPLORE</a>
+        <a href="#booking" class="btn hero__btn hero__btn--primary">BOOK TABLE</a>
+		  <a href="#menu" class="btn hero__btn hero__btn--outline">EXPLORE</a>
     </div>
 </div>
 
