@@ -313,14 +313,6 @@ body {
 	color: #e8c300;
 }
 
-.hero__scroll {
-	position: absolute;
-	bottom: 30px;
-	left: 50%;
-	transform: translateX(-50%) translateY(-70px);
-	z-index: 2;
-}
-
 .hero__side-left {
 	position: absolute;
 	top: 100px;
@@ -1194,16 +1186,6 @@ select.booking__input {
 	margin: 0 10px;
 }
 
-@media (max-width: 767.98px) {
-	.menu__categories {
-		flex-direction: column;
-		gap: 10px;
-	}
-	.menu__categories li:not(:last-child)::after {
-		display: none;
-	}
-}
-
 .menu__card {
 	width: 363px;
 	height: 66px;
@@ -1631,4 +1613,39 @@ select.booking__input {
 	.contact__gray-bar {
 		width: 100%;
 	}
+}
+
+/* Map (Яндекс-карта) */
+.map {
+	width: 100%;
+	height: 475px;
+	position: relative;
+}
+
+@media (max-width: 767.98px) {
+	.map {
+		height: 350px;
+	}
+}
+
+/* Футер */
+.footer {
+	background: rgba(0, 0, 0, 0.9);
+	padding: 40px 0;
+	color: #fff;
+}
+
+.footer__text {
+	font-family: "Tenor Sans", sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+}
+
+.footer__text span {
+	font-weight: 700;
+	color: rgba(255, 255, 255, 0.5);
 }
