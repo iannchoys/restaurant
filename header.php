@@ -63,12 +63,12 @@
     </div>
 
     <div class="hero__side-right">
-        <ul class="hero__socials">
-            <li><a class="hero__social-link" href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-            <li><a class="hero__social-link" href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
-            <li><a class="hero__social-link" href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
-        </ul>
-    </div>
+    <ul class="hero__socials">
+        <li><a class="hero__social-link" href="https://facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a class="hero__social-link" href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+        <li><a class="hero__social-link" href="https://instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+    </ul>
+</div>
 
 <div class="hero__scroll">
     <a href="#next-section" class="hero__scroll-link" aria-label="Прокрутить вниз">
